@@ -10,6 +10,6 @@ For use this script need prepare Cobbler server with calling profile like 'OS-TY
         python py-vmware.py
 
     Usage without config file:
-        python py-vmware.py --chost='cobbler_host_or_ip' --cusername='cobbler_username' --cpassword='cobbler_password' \
-            --vhost='vcenter_host_or_ip' --vusername='vcenter_username' --vpassword='vcenter_password' \
-            --vmdatastore='datastore' --vmenvironment='pool' --vmname='vm_name' --vmosversion='Centos7' --vmtype='WEB'
+        python py-vmware.py --chost='cobbler_host_or_ip' --cusername='cobbler_username' --cpassword='cobbler_password'
+        --vhost='vcenter_host_or_ip' --vusername='vcenter_username' --vpassword='vcenter_password' 
+        --vmdatastore='datastore' --vmenvironment='pool' --vmname='vm_name' --vmosversion='Centos7' --vmtype='WEB'
