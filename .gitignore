@@ -12,6 +12,8 @@ sdist
 
 .devassistant
 
+*.ini
+
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
 

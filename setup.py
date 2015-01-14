@@ -8,7 +8,7 @@ except:
 
 setup(
     name='py_vmmanage',
-    version='0.2',
+    version='0.2a',
     description='Short description',
     long_description=''.join(open('README.rst').readlines()),
     keywords='vmware, cobbler',
