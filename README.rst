@@ -3,7 +3,6 @@ py_vmmanage
 
 This script clone new virtual machine on VMware host from exist VM as template and create system in Cobbler
 for automatically install.
-Create VM in VCenter and Create Template in Cobbler.
 For use this script need prepare Cobbler server with calling profile like 'OS-TYPE' (for example Centos7-WEB).
 
     Usage with config file:
