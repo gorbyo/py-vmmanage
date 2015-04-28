@@ -19,7 +19,9 @@
 #  MA 02110-1301, USA.
 #
 #
-
+#  TODO:
+#   - enable SSL verification
+#
 
 """
 This script clone new virtual machine on VMware host from exist VM as template and create system in Cobbler
@@ -42,6 +44,9 @@ import xmlrpclib
 from pysphere import VIServer
 from set_vm import vm_param, common_param
 
+import ssl
+
+ssl._create_default_https_context = ssl._create_unverified_context
 vm_templates = {'DEV': 'DEV_TEMPLATE', 'PROD': 'PROD_TEMPLATE'}
 
 
